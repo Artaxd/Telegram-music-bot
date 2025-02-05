@@ -96,7 +96,7 @@ def clear_messages(chat_id, ids):
     ids.clear()
 
 #ключ для бота
-bot = telebot.TeleBot("7062844071:AAH4Pzf68WWtQ8_Qjoqf0g1pI1VXRFIGmWU")
+bot = telebot.TeleBot("")
 
 #список с id отосланных сообщений вида "id чата" : [id сообщений]
 sent_messages_ids = {}
